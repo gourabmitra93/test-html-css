@@ -1,3 +1,8 @@
+/*Universal selector targets to each and every html elements*/
+* {
+  border: 2px solid black;
+}
+
 body {
   color: blue; /*inherited*/
   font-size: 20px; /*inherited, but overrided in child CSS rule*/
