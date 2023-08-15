@@ -1,6 +1,19 @@
-/* unvisited link */
-a:link {
-  color: #ff0000;
+* {
+  font-size: 50px !important;
+  background-color: red;
 }
 
-/* visited link */
+p {
+  font-size: 40px;
+  border: 10px solid green;
+}
+
+.text-lorem {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#info {
+  font-size: 20px;
+  text-align: center;
+}
