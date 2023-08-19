@@ -1,15 +1,21 @@
-/*Universal selector targets to each and every html elements*/
+/* Global reset with Specificity */
 * {
-  border: 2px solid black;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  color: blue; /*inherited*/
-  font-size: 20px; /*inherited, but overrided in child CSS rule*/
-  border: 5px solid green; /*Not inherited*/
+h1 {
+  margin-bottom: 10px;
 }
 
-p {
-  background-color: red;
-  font-size: 12px; /*inherited, but overrided in child CSS rule*/
+h1:last-child {
+  margin-bottom: 0;
+}
+
+#second-test {
+  margin-bottom: 40px;
+}
+
+.second-test {
+  margin-bottom: 50px;
 }
